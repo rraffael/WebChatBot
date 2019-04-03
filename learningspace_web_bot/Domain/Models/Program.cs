@@ -10,9 +10,7 @@ namespace App2
 
     class Program
     {
-        static void Main(string[] args)
-        {
-            
+        public void teste() { 
             ConversationHelper helper = new ConversationHelper("3c1a7590-d8ce-4fe8-9061-d3731b06d386", "apikey", "J9vgtAyW_gpQH1A2ZqupBoGvrjRC6q_cL_rPZX7xzDDd");
 
             var resposta = Console.ReadLine();
