@@ -1,0 +1,11 @@
+C:\Users\breno\Documents\Aula\9 unidade\Project Lab\learningspace_web_bot-master\learningspace_web_bot\bin\Debug\netcoreapp2.2\learningspace_web_bot.deps.json
+C:\Users\breno\Documents\Aula\9 unidade\Project Lab\learningspace_web_bot-master\learningspace_web_bot\bin\Debug\netcoreapp2.2\learningspace_web_bot.runtimeconfig.json
+C:\Users\breno\Documents\Aula\9 unidade\Project Lab\learningspace_web_bot-master\learningspace_web_bot\bin\Debug\netcoreapp2.2\learningspace_web_bot.runtimeconfig.dev.json
+C:\Users\breno\Documents\Aula\9 unidade\Project Lab\learningspace_web_bot-master\learningspace_web_bot\bin\Debug\netcoreapp2.2\learningspace_web_bot.dll
+C:\Users\breno\Documents\Aula\9 unidade\Project Lab\learningspace_web_bot-master\learningspace_web_bot\obj\Debug\netcoreapp2.2\learningspace_web_bot.csprojAssemblyReference.cache
+C:\Users\breno\Documents\Aula\9 unidade\Project Lab\learningspace_web_bot-master\learningspace_web_bot\obj\Debug\netcoreapp2.2\learningspace_web_bot.csproj.CoreCompileInputs.cache
+C:\Users\breno\Documents\Aula\9 unidade\Project Lab\learningspace_web_bot-master\learningspace_web_bot\obj\Debug\netcoreapp2.2\learningspace_web_bot.RazorAssemblyInfo.cache
+C:\Users\breno\Documents\Aula\9 unidade\Project Lab\learningspace_web_bot-master\learningspace_web_bot\obj\Debug\netcoreapp2.2\learningspace_web_bot.RazorAssemblyInfo.cs
+C:\Users\breno\Documents\Aula\9 unidade\Project Lab\learningspace_web_bot-master\learningspace_web_bot\obj\Debug\netcoreapp2.2\learningspace_web_bot.AssemblyInfoInputs.cache
+C:\Users\breno\Documents\Aula\9 unidade\Project Lab\learningspace_web_bot-master\learningspace_web_bot\obj\Debug\netcoreapp2.2\learningspace_web_bot.AssemblyInfo.cs
+C:\Users\breno\Documents\Aula\9 unidade\Project Lab\learningspace_web_bot-master\learningspace_web_bot\obj\Debug\netcoreapp2.2\learningspace_web_bot.RazorTargetAssemblyInfo.cache
