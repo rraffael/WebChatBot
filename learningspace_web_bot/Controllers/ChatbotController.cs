@@ -20,44 +20,45 @@ namespace learningspace_web_bot.Controllers
             _assistantHelper = new AssistantHelper();
         }
 
-        // GET: api/<controller>
-        [HttpGet]
-        public IEnumerable<string> Get()
-        {
-            return new string[] { "value1", "value2" };
-        }
-
-        // GET api/<controller>/5
-        [HttpGet("{id}")]
-        public string Get(int id)
-        {
-            return "value";
-        }
-
         // POST api/<controller>
         [HttpPost]
         [SwaggerOperation(
-            Summary ="Envia uma mensagem para o chatbot.",
+            Summary = "Envia uma mensagem para o chatbot.",
             Produces = new[] { "application/json" }
             )]
-        public IActionResult Post([FromBody] Question question)
+        public IActionResult Post([FromBody] UserMessage userMessage)
         {
-            string response = _assistantHelper.getResponse(question.text);
+            string response = _assistantHelper.getResponse(userMessage.text);
 
             return Created("uri1", response);
 
         }
 
-        // PUT api/<controller>/5
-        [HttpPut("{id}")]
-        public void Put(int id, [FromBody]string value)
-        {
-        }
+        //// GET: api/<controller>
+        //[HttpGet]
+        //public IEnumerable<string> Get()
+        //{
+        //    return new string[] { "value1", "value2" };
+        //}
 
-        // DELETE api/<controller>/5
-        [HttpDelete("{id}")]
-        public void Delete(int id)
-        {
-        }
+        //// GET api/<controller>/5
+        //[HttpGet("{id}")]
+        //public string Get(int id)
+        //{
+        //    return "value";
+        //}
+
+        //// PUT api/<controller>/5
+        //[HttpPut("{id}")]
+        //public void Put(int id, [FromBody]string value)
+        //{
+        //}
+
+        //// DELETE api/<controller>/5
+        //[HttpDelete("{id}")]
+        //public void Delete(int id)
+        //{
+        //}
+
     }
 }

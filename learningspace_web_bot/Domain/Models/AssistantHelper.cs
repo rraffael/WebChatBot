@@ -31,7 +31,8 @@ namespace learningspace_web_bot.Domain.Models
                 Input = new InputData()
                 {
                     Text = text
-                }
+                },
+
             };
 
             var result = _assistant.Message(workspaceID, messageRequest);

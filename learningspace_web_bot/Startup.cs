@@ -31,7 +31,7 @@ namespace learningspace_web_bot
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new Info { Title = "Chatbot API", Description = "Documentação da API", Version = "1.0"});
-
+                
                 c.EnableAnnotations();
 
             });
