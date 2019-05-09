@@ -11,17 +11,18 @@ using Swashbuckle.AspNetCore.Annotations;
 namespace learningspace_web_bot.Controllers
 {
     [Route("api/[controller]")]
-    public class ChatbotController : ControllerBase
+    public class WebBotController : ControllerBase
     {
         AssistantHelper _assistantHelper;
 
-        public ChatbotController()
+        public WebBotController()
         {
             _assistantHelper = new AssistantHelper();
         }
 
         // POST api/<controller>
         [HttpPost]
+        [Route("mensagem")]
         [SwaggerOperation(
             Summary = "Envia uma mensagem para o chatbot.",
             Produces = new[] { "application/json" }
@@ -30,8 +31,7 @@ namespace learningspace_web_bot.Controllers
         {
             string response = _assistantHelper.getResponse(userMessage.text);
 
-            return Created("uri1", response);
-
+            return Ok(response);
         }
 
         //// GET: api/<controller>
