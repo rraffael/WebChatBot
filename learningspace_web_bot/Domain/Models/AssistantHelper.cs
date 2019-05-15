@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using IBM.WatsonDeveloperCloud.Assistant.v1;
 using IBM.WatsonDeveloperCloud.Assistant.v1.Model;
 using IBM.WatsonDeveloperCloud.Util;
+using Newtonsoft.Json.Linq;
 
 namespace learningspace_web_bot.Domain.Models
 {
@@ -40,8 +41,13 @@ namespace learningspace_web_bot.Domain.Models
             };
 
             var result = _assistant.Message(workspaceID, messageRequest);
-
-            return result.ResponseJson;
+            
+            JObject jsonRes = new JObject(result.ResponseJson);
+            JObject response = new JObject();
+            response.Add("input",jsonRes.GetValue("input"));
+            response.Add("context",jsonRes.GetValue("context"));
+            return response.ToString();
+            
         }
 
         
