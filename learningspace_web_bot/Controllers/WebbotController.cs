@@ -29,7 +29,7 @@ namespace learningspace_web_bot.Controllers
             )]
         public IActionResult Post([FromBody] UserMessage userMessage)
         {
-            string response = _assistantHelper.getResponse(userMessage.text);
+            string response = _assistantHelper.getResponse(userMessage);
 
             return Ok(response);
         }

@@ -7,6 +7,7 @@ namespace learningspace_web_bot.Domain.Models
 {
     public class UserMessage
     {
-        public string text { get; set; }
+        public string Text { get; set; }
+        public string Context { get; set; }
     }
 }
