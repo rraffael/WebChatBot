@@ -5,6 +5,7 @@ using System.Net;
 using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
+using Newtonsoft.Json.Linq;
 
 namespace Models
 {
@@ -31,7 +32,11 @@ namespace Models
                 var cont = new HttpRequestMessage();
                 cont.Content = new StringContent(req.ToString(), Encoding.UTF8, "application/json");
                 var result = await client.PostAsync(_Server, cont.Content);
-                return await result.Content.ReadAsStringAsync();
+                JObject jsonRes = JObject.Parse(await result.Content.ReadAsStringAsync());
+                JObject response = new JObject();
+                response.Add("input",jsonRes.GetValue("input"));
+                response.Add("context",jsonRes.GetValue("context"));
+                return response.ToString();
             }
         }
     }
