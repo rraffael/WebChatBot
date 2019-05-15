@@ -5,9 +5,8 @@ using System.Threading.Tasks;
 
 namespace learningspace_web_bot.Domain.Models
 {
-    //Model to bind the JSON Object
-    public class WebBot
+    public class Example
     {
-        public string Answer { get; set; }
+        //Sera implementado as classes utilizadas na API que não sejam tabelas do banco
     }
 }

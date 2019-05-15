@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 C:\Users\leoml\Documents\GitHub\learningspace_web_bot\learningspace_web_bot\obj\Debug\netcoreapp2.2\learningspace_web_bot.csprojAssemblyReference.cache
 C:\Users\leoml\Documents\GitHub\learningspace_web_bot\learningspace_web_bot\obj\Debug\netcoreapp2.2\learningspace_web_bot.csproj.CoreCompileInputs.cache
 C:\Users\leoml\Documents\GitHub\learningspace_web_bot\learningspace_web_bot\obj\Debug\netcoreapp2.2\learningspace_web_bot.RazorAssemblyInfo.cache
@@ -13,33 +12,3 @@ C:\Users\leoml\Documents\GitHub\learningspace_web_bot\learningspace_web_bot\obj\
 C:\Users\leoml\Documents\GitHub\learningspace_web_bot\learningspace_web_bot\bin\Debug\netcoreapp2.2\learningspace_web_bot.pdb
 C:\Users\leoml\Documents\GitHub\learningspace_web_bot\learningspace_web_bot\obj\Debug\netcoreapp2.2\learningspace_web_bot.dll
 C:\Users\leoml\Documents\GitHub\learningspace_web_bot\learningspace_web_bot\obj\Debug\netcoreapp2.2\learningspace_web_bot.pdb
-=======
-C:\Users\rraffael\source\repos\learningspace_web_bot\learningspace_web_bot\bin\Debug\netcoreapp2.2\learningspace_web_bot.deps.json
-C:\Users\rraffael\source\repos\learningspace_web_bot\learningspace_web_bot\bin\Debug\netcoreapp2.2\learningspace_web_bot.runtimeconfig.json
-C:\Users\rraffael\source\repos\learningspace_web_bot\learningspace_web_bot\bin\Debug\netcoreapp2.2\learningspace_web_bot.runtimeconfig.dev.json
-C:\Users\rraffael\source\repos\learningspace_web_bot\learningspace_web_bot\bin\Debug\netcoreapp2.2\learningspace_web_bot.dll
-C:\Users\rraffael\source\repos\learningspace_web_bot\learningspace_web_bot\obj\Debug\netcoreapp2.2\learningspace_web_bot.csprojAssemblyReference.cache
-C:\Users\rraffael\source\repos\learningspace_web_bot\learningspace_web_bot\obj\Debug\netcoreapp2.2\learningspace_web_bot.csproj.CoreCompileInputs.cache
-C:\Users\rraffael\source\repos\learningspace_web_bot\learningspace_web_bot\obj\Debug\netcoreapp2.2\learningspace_web_bot.RazorAssemblyInfo.cache
-C:\Users\rraffael\source\repos\learningspace_web_bot\learningspace_web_bot\obj\Debug\netcoreapp2.2\learningspace_web_bot.RazorAssemblyInfo.cs
-C:\Users\rraffael\source\repos\learningspace_web_bot\learningspace_web_bot\obj\Debug\netcoreapp2.2\learningspace_web_bot.AssemblyInfoInputs.cache
-C:\Users\rraffael\source\repos\learningspace_web_bot\learningspace_web_bot\obj\Debug\netcoreapp2.2\learningspace_web_bot.AssemblyInfo.cs
-C:\Users\rraffael\source\repos\learningspace_web_bot\learningspace_web_bot\obj\Debug\netcoreapp2.2\learningspace_web_bot.RazorTargetAssemblyInfo.cache
-C:\Users\rraffael\source\repos\learningspace_web_bot\learningspace_web_bot\bin\Debug\netcoreapp2.2\learningspace_web_bot.pdb
-C:\Users\rraffael\source\repos\learningspace_web_bot\learningspace_web_bot\obj\Debug\netcoreapp2.2\learningspace_web_bot.dll
-C:\Users\rraffael\source\repos\learningspace_web_bot\learningspace_web_bot\obj\Debug\netcoreapp2.2\learningspace_web_bot.pdb
-C:\Users\rraffael\source\repos\Github\learningspace_web_bot\learningspace_web_bot\obj\Debug\netcoreapp2.2\learningspace_web_bot.csprojAssemblyReference.cache
-C:\Users\rraffael\source\repos\Github\learningspace_web_bot\learningspace_web_bot\obj\Debug\netcoreapp2.2\learningspace_web_bot.csproj.CoreCompileInputs.cache
-C:\Users\rraffael\source\repos\Github\learningspace_web_bot\learningspace_web_bot\obj\Debug\netcoreapp2.2\learningspace_web_bot.RazorAssemblyInfo.cache
-C:\Users\rraffael\source\repos\Github\learningspace_web_bot\learningspace_web_bot\obj\Debug\netcoreapp2.2\learningspace_web_bot.RazorAssemblyInfo.cs
-C:\Users\rraffael\source\repos\Github\learningspace_web_bot\learningspace_web_bot\obj\Debug\netcoreapp2.2\learningspace_web_bot.AssemblyInfoInputs.cache
-C:\Users\rraffael\source\repos\Github\learningspace_web_bot\learningspace_web_bot\obj\Debug\netcoreapp2.2\learningspace_web_bot.AssemblyInfo.cs
-C:\Users\rraffael\source\repos\Github\learningspace_web_bot\learningspace_web_bot\obj\Debug\netcoreapp2.2\learningspace_web_bot.dll
-C:\Users\rraffael\source\repos\Github\learningspace_web_bot\learningspace_web_bot\obj\Debug\netcoreapp2.2\learningspace_web_bot.pdb
-C:\Users\rraffael\source\repos\Github\learningspace_web_bot\learningspace_web_bot\bin\Debug\netcoreapp2.2\learningspace_web_bot.deps.json
-C:\Users\rraffael\source\repos\Github\learningspace_web_bot\learningspace_web_bot\bin\Debug\netcoreapp2.2\learningspace_web_bot.runtimeconfig.json
-C:\Users\rraffael\source\repos\Github\learningspace_web_bot\learningspace_web_bot\bin\Debug\netcoreapp2.2\learningspace_web_bot.runtimeconfig.dev.json
-C:\Users\rraffael\source\repos\Github\learningspace_web_bot\learningspace_web_bot\bin\Debug\netcoreapp2.2\learningspace_web_bot.dll
-C:\Users\rraffael\source\repos\Github\learningspace_web_bot\learningspace_web_bot\bin\Debug\netcoreapp2.2\learningspace_web_bot.pdb
-C:\Users\rraffael\source\repos\Github\learningspace_web_bot\learningspace_web_bot\obj\Debug\netcoreapp2.2\learningspace_web_bot.RazorTargetAssemblyInfo.cache
->>>>>>> d41baaf30bbb979a1a08a2e640602f10358dfa8f

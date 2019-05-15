@@ -6,12 +6,8 @@ using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
 
-<<<<<<< HEAD
 
 public class ConversationHelper
-=======
-namespace Models
->>>>>>> d41baaf30bbb979a1a08a2e640602f10358dfa8f
 {
     private readonly string _Server;
     private readonly NetworkCredential _NetCredential;
