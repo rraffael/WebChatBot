@@ -6,10 +6,21 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="OldApp\**" />
+    <Content Remove="OldApp\**" />
+    <EmbeddedResource Remove="OldApp\**" />
+    <None Remove="OldApp\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.App" />
     <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.2.0" PrivateAssets="All" />
+<<<<<<< HEAD
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.2.0" />
     <PackageReference Include="Newtonsoft.Json" Version="12.0.1" />
+=======
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.2" />
+>>>>>>> d41baaf30bbb979a1a08a2e640602f10358dfa8f
   </ItemGroup>
 
 </Project>
