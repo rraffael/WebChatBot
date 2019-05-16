@@ -41,12 +41,15 @@ namespace learningspace_web_bot.Domain.Models
             };
 
             var result = _assistant.Message(workspaceID, messageRequest);
-            
-            JObject jsonRes = new JObject(result.ResponseJson);
-            JObject response = new JObject();
-            response.Add("input",jsonRes.GetValue("input"));
-            response.Add("context",jsonRes.GetValue("context"));
+            JObject json = Newtonsoft.Json.JsonConvert.DeserializeObject<JObject>(result.ResponseJson);
+
+            JObject response = new JObject(
+                                    new JProperty("output", json.GetValue("output")),
+                                    new JProperty("context",json.GetValue("context"))
+                                    );
+
             return response.ToString();
+            //return result.ResponseJson;
             
         }
 
