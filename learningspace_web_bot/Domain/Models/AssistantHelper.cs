@@ -33,10 +33,7 @@ namespace learningspace_web_bot.Domain.Models
                 {
                     Text = userMessage.Text,
                 },
-                Context = new Context()
-                {
-                    ConversationId = userMessage.Context,  
-                },
+                Context = userMessage.Context,
                 
             };
 
