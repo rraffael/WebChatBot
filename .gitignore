@@ -1,5 +1,4 @@
-
-# Created by https://www.gitignore.io/api/visualstudio
+﻿# Created by https://www.gitignore.io/api/visualstudio
 # Edit at https://www.gitignore.io/?templates=visualstudio
 
 ### VisualStudio ###
@@ -349,3 +348,6 @@ healthchecksdb
 MigrationBackup/
 
 # End of https://www.gitignore.io/api/visualstudio
+
+/.vs
+/learningspace_web_bot/bin/Debug/netcoreapp2.2
