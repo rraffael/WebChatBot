@@ -5,6 +5,7 @@ WebChatBot was an group project made in University Tiradentes, at the matter Pro
 
  - Implementation of an ChatBot API.
 
+
 ## Getting Started
 
 1 - Download this project
@@ -19,5 +20,6 @@ WebChatBot was an group project made in University Tiradentes, at the matter Pro
 - Asp.Core 2 package
 
 ## Built With
-
+ASP.NET Core -> https://docs.microsoft.com/en-us/aspnet/overview
+Microsoft Visual Studio -> https://visualstudio.microsoft.com/vs/
 Watson API -> https://www.ibm.com/watson/developer/
